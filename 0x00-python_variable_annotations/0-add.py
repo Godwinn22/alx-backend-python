@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 """This is a module that creates a type-annotated function add that takes
 a float a and a float b as arguments and returns their sum as a float.
-
-Keyword arguments:
-a -- float
-b -- float
-Return: sum of a and b as float
 """
 
 

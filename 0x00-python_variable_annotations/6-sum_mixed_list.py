@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """This is a module that creates a type-annotated function sum_list which takes
 a list mixed lst of floats as argument and returns their sum as a float.
-
-Keyword arguments:
-mxd_lst -- list of unions
-Return: returns the sum of all float numbers in a list of unions
 """
 from typing import List, Union
 

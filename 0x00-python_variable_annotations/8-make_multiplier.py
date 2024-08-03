@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
-"""This is a module that creates a type-annotated function make_multiplier that
-takes a float multiplier as argument and returns a function that multiplies
-a float by multiplier.
-
-Keyword arguments:
-multiplier -- float
-Return: returns a function that multiplies a float by multiplier.
+"""This is a module that annotate the below function's parameters
+and return valueswith the appropriate types.
 """
 from typing import Callable
 
