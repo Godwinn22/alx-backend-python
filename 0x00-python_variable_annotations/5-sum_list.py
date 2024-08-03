@@ -6,9 +6,10 @@ Keyword arguments:
 input_list -- list
 Return: returns the sum of all float numbers in a list
 """
+from typing import List
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """This method returns the sum of all float numbers in a list.
     Args:
     input_list (list): a list of float numbers
