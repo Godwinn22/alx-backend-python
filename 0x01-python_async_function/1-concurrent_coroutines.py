@@ -15,4 +15,5 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     for _ in range(n):
         task = asyncio.create_task(wait_random(max_delay))
         tasks.append(task)
-    return await asyncio.gather(*tasks)
+    coroutine = await asyncio.gather(*tasks)
+    return sorted(coroutine)
